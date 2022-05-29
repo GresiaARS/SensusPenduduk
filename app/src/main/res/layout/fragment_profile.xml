@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDF7EB"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Profile"
+        android:textAlignment="center"
+        android:textColor="@color/darkColor"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/edit_email"
+        android:layout_width="346dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/email2"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="gresia@gmail.com"
+        android:textColorHint="@color/black"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/edit_nim"
+        android:layout_width="346dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/nim"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="1907411026"
+        android:textColorHint="@color/black"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/edit_nama"
+        android:layout_width="346dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/nama"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="Gresia Andayani R. S."
+        android:textColorHint="@color/black"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/edit_kelas"
+        android:layout_width="346dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/kelas"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="TI 6A"
+        android:textColorHint="@color/black"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

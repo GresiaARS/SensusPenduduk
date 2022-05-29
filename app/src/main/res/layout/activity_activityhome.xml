@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    tools:context=".activityhome">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FDF7EB"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:background="@color/purple_500"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/buat_home"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/purple_200"
+            android:backgroundTint="@color/purple_200"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/home" />
+
+        <ImageButton
+            android:id="@+id/buat_berita"
+            android:layout_width="142dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/purple_200"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/news" />
+
+        <ImageButton
+            android:id="@+id/buat_profile"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/purple_200"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/profile" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

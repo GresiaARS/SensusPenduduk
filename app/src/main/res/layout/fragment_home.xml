@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDF7EB"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/judul" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="-----------"
+        android:textAlignment="center"
+        android:textColor="@color/darkColor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Aplikasi ini merupakan aplikasi sederhana yang digunakan untuk melakukan sensus penduduk. Sensus penduduk sendiri berarti melakukan perhitungan jumlah penduduk secara periodik."
+        android:textAlignment="center"
+        android:textColor="@color/darkColor"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        app:srcCompat="@drawable/pictureheader" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="*Dibuat untuk memenuhi Ujian Tengah Semester          Mata Kuliah Pemrograman Begerak"
+        android:textAlignment="center"
+        android:textColor="@color/darkColor"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Oleh:"
+        android:textAlignment="center"
+        android:textColor="@color/darkColor"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:layout_marginTop="10dp"
+        android:text="Gresia Andayani R.S. (1907431018)"
+        android:textAlignment="center"
+        android:textColor="@color/darkColor"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:background="@color/purple_500"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/buat_home"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/purple_200"
+            android:backgroundTint="@color/purple_200"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/home" />
+
+        <ImageButton
+            android:id="@+id/buat_berita"
+            android:layout_width="142dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/purple_200"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/news" />
+
+        <ImageButton
+            android:id="@+id/buat_profile"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/purple_200"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/profile" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

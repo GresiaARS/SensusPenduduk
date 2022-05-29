@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDF7EB"
+    android:padding="30dp"
+    tools:context=".nambahin">
+
+    <EditText
+        android:id="@+id/nama_input"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#090909"
+        android:background="@color/white"
+        android:textColorHint="@color/grey"
+        android:ems="10"
+        android:hint="Masukan Nama Anda"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/alamat_input"
+        android:layout_width="0dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:textColor="#090909"
+        android:background="@color/white"
+        android:textColorHint="@color/grey"
+        android:layout_height="50dp"
+        android:hint="Alamat Anda"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nama_input" />
+
+    <EditText
+        android:id="@+id/nik_input"
+        android:layout_width="0dp"
+        android:textColor="#090909"
+        android:background="@color/white"
+        android:textColorHint="@color/grey"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="NIK"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alamat_input" />
+
+    <EditText
+        android:id="@+id/kepala_keluarga"
+        android:layout_width="0dp"
+        android:textColor="#090909"
+        android:background="@color/white"
+        android:textColorHint="@color/grey"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Kepala Keluarga"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tlp" />
+
+    <EditText
+        android:id="@+id/tempat_lahir"
+        android:layout_width="0dp"
+        android:textColor="#090909"
+        android:background="@color/white"
+        android:textColorHint="@color/grey"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Tempat Lahir"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nik_input" />
+
+    <EditText
+        android:id="@+id/tanggal_lahir"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_width="0dp"
+        android:textColor="#090909"
+        android:background="@color/white"
+        android:textColorHint="@color/grey"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Tanggal Lahir"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tempat_lahir" />
+
+    <EditText
+        android:id="@+id/agama"
+        android:layout_width="0dp"
+        android:textColor="#090909"
+        android:background="@color/white"
+        android:textColorHint="@color/grey"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Agama"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tanggal_lahir" />
+
+    <EditText
+        android:id="@+id/tlp"
+        android:layout_width="0dp"
+        android:textColor="#090909"
+        android:background="@color/white"
+        android:textColorHint="@color/grey"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Nomor Telpon Anda"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agama" />
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Tambah Data"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kepala_keluarga" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
